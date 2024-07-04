@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"29efb7506fbadcc0","type":"text","text":"护栏","x":-380,"y":0,"width":250,"height":60},
+		{"id":"596b5cd5cbe932e6","type":"text","text":"谣言","x":60,"y":0,"width":250,"height":60},
+		{"id":"6a2c37661e9cc8cf","type":"text","text":"违法人员","x":-160,"y":-220,"width":250,"height":60},
+		{"id":"0275bbe21372421a","type":"text","text":"群众","x":60,"y":200,"width":250,"height":60},
+		{"id":"8ceda2cf3b723242","type":"text","text":"交警（我）","x":-380,"y":200,"width":250,"height":60},
+		{"id":"5629748a345a5860","x":-720,"y":0,"width":250,"height":60,"type":"text","text":"法律"}
+	],
+	"edges":[
+		{"id":"de4146a59134295c","fromNode":"6a2c37661e9cc8cf","fromSide":"left","toNode":"29efb7506fbadcc0","toSide":"top","label":"跨越"},
+		{"id":"254c66e6b713508a","fromNode":"6a2c37661e9cc8cf","fromSide":"right","toNode":"596b5cd5cbe932e6","toSide":"top"},
+		{"id":"bdf01417feffaaba","fromNode":"8ceda2cf3b723242","fromSide":"right","toNode":"6a2c37661e9cc8cf","toSide":"bottom"},
+		{"id":"5e8904a031be4ab1","fromNode":"596b5cd5cbe932e6","fromSide":"bottom","toNode":"0275bbe21372421a","toSide":"top"},
+		{"id":"d8a1e52bed6d1804","fromNode":"29efb7506fbadcc0","fromSide":"left","toNode":"5629748a345a5860","toSide":"right"},
+		{"id":"cab5f68e9b9c33ac","fromNode":"5629748a345a5860","fromSide":"bottom","toNode":"8ceda2cf3b723242","toSide":"left"}
+	]
+}

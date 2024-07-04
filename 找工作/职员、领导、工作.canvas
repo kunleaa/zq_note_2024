@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"262866fcfb36bfd0","x":-280,"y":-380,"width":250,"height":60,"type":"text","text":"领导"},
+		{"id":"8ddbca7c6481ef60","x":100,"y":-220,"width":250,"height":60,"type":"text","text":"工作"},
+		{"id":"5efa6c0cf814c212","x":-280,"y":-100,"width":250,"height":160,"type":"text","text":"职员（我）\n- 能力不匹配\n- 感到琐碎"}
+	],
+	"edges":[
+		{"id":"c9015088365ce3e2","fromNode":"5efa6c0cf814c212","fromSide":"right","toNode":"8ddbca7c6481ef60","toSide":"bottom","label":"完成"},
+		{"id":"3de477e21ca62663","fromNode":"262866fcfb36bfd0","fromSide":"right","toNode":"8ddbca7c6481ef60","toSide":"top","label":"派发"}
+	]
+}
